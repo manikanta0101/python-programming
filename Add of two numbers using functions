@@ -1,0 +1,10 @@
+# python program to add two numbers using functions
+
+def my_function(a,b):
+    print(a+b)
+a=5
+b=6
+my_function(a,b)
+
+output:
+11
