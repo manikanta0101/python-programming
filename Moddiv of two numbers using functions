@@ -1,0 +1,10 @@
+# python program to moddiv of two numbers using functions
+
+def my_function(a,b):
+    print(a%b)
+a=4
+b=2
+my_function(a,b)
+
+output:
+0
