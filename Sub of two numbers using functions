@@ -1,0 +1,10 @@
+# python program to sub of two numbers using functions
+
+def my_function(a,b):
+    print(a-b)
+a=8
+b=4
+my_function(a,b)
+
+output:
+4
