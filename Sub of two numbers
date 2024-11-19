@@ -1,0 +1,8 @@
+# python program to sub of two numbers
+
+a=8
+b=4
+print(a-b)
+
+output:
+4
