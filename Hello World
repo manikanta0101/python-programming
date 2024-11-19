@@ -1,0 +1,6 @@
+# python program to print the hello world
+
+print("Hello World!")
+
+output:
+Hello World!
