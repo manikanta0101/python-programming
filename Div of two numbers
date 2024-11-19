@@ -1,0 +1,8 @@
+# python program to div of two numbers
+
+a=4
+b=2
+print(a/b)
+
+output:
+2.0
