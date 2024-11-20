@@ -1,0 +1,19 @@
+# python program for finding quotient ad remainder of a number using functions
+
+def my_function(dividend,divisor):
+    if divisor!=0:
+        quotient=dividend/divisor
+        remainder=dividend%divisor
+        print("Quotient = ",quotient)
+        print("Remainder = ",remainder)
+    else:
+        print("Error! quotient and remainder not possible")
+dividend=int(input("Enter the dividend value:"))
+divisor=int(input("Enter the divisor value:"))
+my_function(dividend,divisor)
+
+output:
+Enter the dividend value:4
+Enter the divisor value:2
+Quotient =  2.0
+Remainder =  0
