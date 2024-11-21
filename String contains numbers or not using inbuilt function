@@ -1,0 +1,11 @@
+# python program to find given string contains numbers or not using inbuilt function
+
+s=input("Enter the string:")
+if s.isnumeric():
+    print("It contains numbers")
+else:
+    print("It does contains any numbers")
+
+output:
+Enter the string:1234
+It contains numbers
