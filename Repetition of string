@@ -1,0 +1,11 @@
+# python program for repetition of string
+
+s=input("Enter the string:")
+repeat=int(input("Enter the number how many times to repeat:"))
+repetition=s*repeat
+print("Repetition of string = %s"%(repetition))
+
+output:
+Enter the string:python
+Enter the number how many times to repeat:3
+Repetition of string = pythonpythonpython
