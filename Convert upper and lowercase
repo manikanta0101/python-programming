@@ -1,0 +1,12 @@
+# python program to convert given string to uppercase and lowercase
+
+s=input("Enter the string:")
+upper_case=s.upper()
+lower_case=s.lower()
+print("Uppercase = ",upper_case)
+print("Lowercase = ",lower_case)
+
+output:
+Enter the string:python
+Uppercase =  PYTHON
+Lowercase =  python
