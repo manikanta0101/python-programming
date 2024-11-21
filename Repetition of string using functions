@@ -1,0 +1,13 @@
+# python program for string repetition using functions
+
+def my_function(s,repeat):
+    repetition=s*repeat
+    print("Repetition of string = %s"%(repetition))
+s=input("Enter the string:")
+repeat=int(input("Enter the number how many times you want to print the string:"))
+my_function(s,repeat)
+
+output:
+Enter the string:py
+Enter the number how many times you want to print the string:5
+Repetition of string = pypypypypy
