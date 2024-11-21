@@ -1,0 +1,11 @@
+# python program to find string contains numbers and characters or not using inbuilt
+
+s=input("Enter the string:")
+if s.isalnum():
+    print("It contains both numbers and characters")
+else:
+    print("It does not contains numbers and characters")
+
+output:
+Enter the string:qwe2143
+It contains both numbers and characters
