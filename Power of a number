@@ -1,0 +1,11 @@
+# python program to find power of a number
+
+base=int(input("Enter the base value:"))
+power=int(input("Enter the power value:"))
+s=base**power
+print("Power of a number = ",s)
+
+output:
+Enter the base value:2
+Enter the power value:2
+Power of a number =  4
