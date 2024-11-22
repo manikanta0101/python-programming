@@ -1,0 +1,9 @@
+# python program to capitalize a string
+
+s=input("Enter the string:")
+cap=s.capitalize()
+print("Capitalize string = ",cap)
+
+output:
+Enter the string:python programming
+Capitalize string =  Python programming
