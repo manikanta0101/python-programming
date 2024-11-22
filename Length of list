@@ -1,0 +1,8 @@
+# python program to find the length of list
+
+list1=[2134,53,124,546,2,543,324,536,32432]
+s=len(list1)
+print("Length of list = ",s)
+
+output:
+Length of list =  9
