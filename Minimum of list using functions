@@ -1,0 +1,10 @@
+# python program to find the minimum number in list using functions
+
+def my_function(list1):
+    minimum=min(list1)
+    print("Minimum of list = ",minimum)
+list1=[2134,53,124,546,2,543,324,536,32432]
+my_function(list1)
+
+output:
+Minimum of list =  2
