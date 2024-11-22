@@ -1,0 +1,8 @@
+# python program to find the maximum number in a list
+
+list1=[2134,53,124,546,2,543,324,536,32432]
+maximum=max(list1)
+print("Maximum of list = ",maximum)
+
+output:
+Maximum of list =  32432
