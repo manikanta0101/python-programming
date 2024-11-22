@@ -1,0 +1,10 @@
+# python program to sort the list in descending order using functions
+
+def my_function(list1):
+    s=sorted(list1,reverse=True)
+    print("Sorted list in descending order = ",s)
+list1=[2134,53,124,546,2,543,324,536,32432]
+my_function(list1)
+
+output:
+Sorted list in descending order =  [32432, 2134, 546, 543, 536, 324, 124, 53, 2]
