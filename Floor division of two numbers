@@ -1,0 +1,14 @@
+# python program to find floor division of a number
+
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+if n2!=0:
+    floor=n1//n2
+    print("Floor division of two numbers = ",floor)
+else:
+    print("Error! floor division not possible")
+
+output:
+Enter the first number:5
+Enter the second number:3
+Floor division of two numbers =  1
