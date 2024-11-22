@@ -1,0 +1,8 @@
+# python program to find the sum of list
+
+list1=[2134,53,124,546,2,543,324,536,32432]
+s=sum(list1)
+print("Sum of list = ",s)
+
+output:
+Sum of list =  36694
