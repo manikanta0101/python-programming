@@ -1,0 +1,11 @@
+# python program to find the address of a variable using functions
+
+def my_function(s1):
+    s2=id(s1)
+    print("Address of a variable = ",s2)
+s1=input("Enter the character:")
+my_function(s1)
+
+output:
+Enter the character:py
+Address of a variable =  1616683598304
