@@ -1,0 +1,8 @@
+# python program to find the sum of the tuple
+
+tup1=(2134,53,124,546,2,543,324,536,32432)
+add=sum(tup1)
+print("Sum of tuple = ",add)
+
+output:
+Sum of tuple =  36694
