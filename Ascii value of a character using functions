@@ -1,0 +1,11 @@
+# python program to find the ascii value of a character using functions
+
+def my_function(s1):
+    s2=ord(s1)
+    print("Ascii value of character = ",s2)
+s1=input("Enter the character:")
+my_function(s1)
+
+output:
+Enter the character:a
+Ascii value of character =  97
