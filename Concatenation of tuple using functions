@@ -1,0 +1,11 @@
+# python program for concatenation of tuple using functions
+
+def my_function(tup1,tup2):
+    concatination=tup1+tup2
+    print("Concatination of tuple = ",concatination)
+tup1=(1,2,3,4,5)
+tup2=(6,7,8,9,10)
+my_function(tup1,tup2)
+
+output:
+Concatination of tuple =  (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
