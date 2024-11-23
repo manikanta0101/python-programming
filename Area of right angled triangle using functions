@@ -1,0 +1,13 @@
+# python program to find the area of right angled triangle using functions
+
+def my_function(base,height):
+    area=0.5*base*height
+    print("Area of triangle = ",area)
+base=float(input("Enter the base value:"))
+height=float(input("Enter the height value:"))
+my_function(base,height)
+
+output:
+Enter the base value:8
+Enter the height value:9
+Area of triangle =  36.0
