@@ -1,0 +1,8 @@
+# python program to find the maximum of the tuple
+
+tup1=(2134,53,124,546,2,543,324,536,32432)
+maximum=max(tup1)
+print("Maximum of tuple = ",maximum)
+
+output:
+Maximum of tuple =  32432
