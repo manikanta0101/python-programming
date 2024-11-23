@@ -1,0 +1,11 @@
+# python program to find the third angle of a triangle
+
+first_angle=float(input("Enter the first angle:"))
+second_angle=float(input("Enter the second angle:"))
+third_angle=180-(first_angle + second_angle)
+print("Third angle of a triangle = ",third_angle)
+
+output:
+Enter the first angle:60
+Enter the second angle:30
+Third angle of a triangle =  90.0
