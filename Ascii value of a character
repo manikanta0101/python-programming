@@ -1,0 +1,9 @@
+# python program to find the ascii value of a character
+
+s1=input("Enter the character:")
+s2=ord(s1)
+print("Ascii value of a character = ",s2)
+
+output:
+Enter the character:A
+Ascii value of a character =  65
