@@ -1,0 +1,8 @@
+# python program to sort tuple in descending order
+
+tup1=(2134,53,124,546,2,543,324,536,32432)
+s=sorted(tup1,reverse=True)
+print("Sorted tuple = ",tuple(s))
+
+output:
+Sorted tuple =  (32432, 2134, 546, 543, 536, 324, 124, 53, 2)
