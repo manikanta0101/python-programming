@@ -1,0 +1,10 @@
+# python program to find the minimum of tuple using functions
+
+def my_function(tup1):
+    minimum=min(tup1)
+    print("Minimum of tuple = ",minimum)
+tup1=(2134,53,124,546,2,543,324,536,32432)
+my_function(tup1)
+
+output:
+Minimum of tuple =  2
