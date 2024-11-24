@@ -1,0 +1,17 @@
+# python program to take input from the user and print in list
+
+n=int(input("Enter the number of elements:"))
+numbers=[]
+for i in range(n):
+    s=int(input(f"Enter the {i+1} number:"))
+    numbers.append(s)
+print("List = ",numbers)
+
+output:
+Enter the number of elements:5
+Enter the 1 number:1
+Enter the 2 number:2
+Enter the 3 number:3
+Enter the 4 number:4
+Enter the 5 number:5
+List =  [1, 2, 3, 4, 5]
