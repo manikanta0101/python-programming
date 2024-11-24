@@ -1,0 +1,18 @@
+# python program to find the total and average of three numbers using functions
+
+def my_function(first,second,third):
+    total=first+second+third
+    average=total/3
+    print("Total of three numbers = ",total)
+    print("Average of three numbers = ",average)
+first=int(input("Enter the first number:"))
+second=int(input("Enter the second number:"))
+third=int(input("Enter the third number:"))
+my_function(first,second,third)
+
+output:
+Enter the first number:10
+Enter the second number:10
+Enter the third number:10
+Total of three numbers =  30
+Average of three numbers =  10.0
