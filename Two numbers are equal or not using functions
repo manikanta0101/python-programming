@@ -1,0 +1,15 @@
+# python program to find two numbers are equal or not using functions
+
+def my_function(n1,n2):
+    if n1==n2:
+        print("Two numbers are equal")
+    else:
+        print("Two numbers are not equal")
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+my_function(n1,n2)
+
+output:
+Enter the first number:3
+Enter the second number:4
+Two numbers are not equal
