@@ -1,0 +1,13 @@
+# python program to reverse a number
+
+n=int(input("Enter the number:"))
+reversed=0
+while n>0:
+    digit=n%10
+    reversed=reversed*10+digit
+    n=n//10
+print("Reversed number = ",reversed)
+
+output:
+Enter the number:12345
+Reversed number =  54321
