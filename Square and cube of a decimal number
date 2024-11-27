@@ -1,0 +1,12 @@
+# python program to find square and cube of a decimal number
+
+n=float(input("Enter the number:"))
+square=n*n
+cube=n*n*n
+print("Square of a number = ",square)
+print("Cube of a number = ",cube)
+
+output:
+Enter the number:0.6
+Square of a number =  0.36
+Cube of a number =  0.216
