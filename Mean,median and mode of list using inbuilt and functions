@@ -1,0 +1,28 @@
+# python program to find mean,median and mode of list using inbuilt and functions
+
+import statistics
+def my_function(n):
+    for i in range(0,n):
+        r=int(input("Enter the {i+1} element:"))
+        s.append(r)
+    print("List =",s)
+    print("Mean =",statistics.mean(s))
+    print("Median =",statistics.median(s))
+    print("Mode =",statistics.mode(s))
+n=int(input("Enter the size of list:"))
+s=[]
+my_function(n)
+
+output:
+Enter the size of list:7
+Enter the 1 element:16
+Enter the 2 element:18
+Enter the 3 element:27
+Enter the 4 element:16
+Enter the 5 element:23
+Enter the 6 element:21
+Enter the 7 element:19
+List = [16, 18, 27, 16, 23, 21, 19]
+Mean = 20
+Median = 19
+Mode = 16
