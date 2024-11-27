@@ -1,0 +1,23 @@
+# python program to find the nth largest in list using functions
+
+def my_function(n,s):
+    for i in range(n):
+        r=int(input(f"Enter the {i+1} element:"))
+        s.append(r)
+    n1=int(input("Enter the nth value:"))
+    r1=sorted(s,reverse=True)
+    print("Nth largest number =",r1[n1-1])
+n=int(input("Enter the size of list:"))
+s=[]
+my_function(n,s)
+
+output:
+Enter the size of list:6
+Enter the 1 element:14
+Enter the 2 element:67
+Enter the 3 element:48
+Enter the 4 element:23
+Enter the 5 element:5
+Enter the 6 element:62
+Enter the nth value:1
+Nth largest number = 67
