@@ -1,0 +1,28 @@
+# python program to count the positive and negative in a list
+
+n=int(input("Enter the size of list:"))
+s=[]
+for i in range(n):
+    r=int(input(f"Enter the {i+1} element:"))
+    s.append(r)
+pos_count=0
+neg_count=0
+for j in s:
+    if j<0:
+        neg_count+=1
+    else:
+        pos_count+=1
+print("Positive count =",pos_count)
+print("Negative count =",neg_count)
+
+output:
+Enter the size of list:7
+Enter the 1 element:16
+Enter the 2 element:-18
+Enter the 3 element:27
+Enter the 4 element:-16
+Enter the 5 element:23
+Enter the 6 element:-21
+Enter the 7 element:19
+Positive count = 4
+Negative count = 3
