@@ -1,0 +1,15 @@
+# python program to find the reverse of a number using funtions
+
+def my_function(n):
+    reversed=0
+    while n>0:
+        digit=n%10
+        reversed=reversed*10+digit
+        n=n//10
+    print("Reversed number = ",reversed)
+n=int(input("Enter the number:"))
+my_function(n)
+
+output:
+Enter the number:1234
+Reversed number =  4321
