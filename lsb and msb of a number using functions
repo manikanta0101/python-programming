@@ -1,0 +1,15 @@
+# python program to find the lsb and msb of a number using functions
+
+def my_number(n):
+    msb=n[0]
+    lsb=n[-1]
+    print("Most significant bit =",msb)
+    print("Least significant bit =",lsb)
+n=input("Enter the number:")
+my_number(n)
+
+
+output:
+Enter the number:12345
+Most significant bit = 1
+Least significant bit = 5
