@@ -1,0 +1,11 @@
+# python program to merge two sorted list using functions
+
+def my_function(list1,list2):
+    merged=list1+list2
+    print("Merged =",sorted(merged))
+list1=[1,2,4]
+list2=[1,2,4]
+my_function(list1,list2)
+
+output:
+Merged = [1, 1, 2, 2, 4, 4]
