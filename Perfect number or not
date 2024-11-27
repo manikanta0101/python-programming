@@ -1,0 +1,15 @@
+# python program to find perfect number or not
+
+n=int(input("Enter the number:"))
+sum=0
+for i in range(1,n):
+    if n%i==0:
+        sum+=i
+if n==sum:
+    print("It is an perfect number")
+else:
+    print("It is not an perfect number")
+
+output:
+Enter the number:6
+It is an perfect number
