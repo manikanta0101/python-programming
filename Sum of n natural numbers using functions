@@ -1,0 +1,13 @@
+# python program to find sum of n natural numbers using functions
+
+def my_function(n):
+    sum=0
+    for i in range(1,n+1):
+        sum+=i
+    print("Sum of n numbers = ",sum)
+n=int(input("Enter the number up to you want to sum:"))
+my_function(n)
+
+output:
+Enter the number up to you want to sum:10
+Sum of n numbers =  55
