@@ -1,0 +1,10 @@
+# python program to reverse an array using functions
+
+def my_function(array):
+    reverse=array[::-1]
+    print("Reversed array =",reverse)
+array=[16, 18, 27, 16, 23, 21, 19]
+my_function(array)
+
+output:
+Reversed array = [19, 21, 23, 16, 27, 18, 16]
