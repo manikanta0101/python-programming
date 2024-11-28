@@ -1,0 +1,45 @@
+"""Find the Mth maximum number and Nth minimum number in an array and then find the sum of it, difference of it and product of it.
+Sample Input:
+Array of elements = {14, 16, 87, 36, 25, 89, 34}
+M = 1
+N = 3
+Sample Output:
+1st Maximum Number = 89 3rd Minimum Number = 25 Sum = 114
+Difference = 64
+Product = 2225 """
+
+n1=int(input("Enter the size of list:"))
+s=[]
+for i in range(n1):
+    n2=int(input(f"Enter the {i+1} element:"))
+    s.append(n2)
+print("List =",s)
+asc=sorted(s)
+des=sorted(s,reverse=True)
+m=int(input("Enter the m value:"))
+n=int(input("Enter the n value:"))
+maximum=des[m-1]
+minimum=asc[n-1]
+print(f"{m} maximum number ={maximum}")
+print(f"{n} minimum number ={minimum}")
+print("Sum =",(maximum+minimum))
+print("Difference =",(maximum-minimum))
+print("Product =",(maximum*minimum))
+
+output:
+Enter the size of list:7
+Enter the 1 element:16
+Enter the 2 element:18
+Enter the 3 element:87
+Enter the 4 element:36
+Enter the 5 element:25
+Enter the 6 element:89
+Enter the 7 element:34
+List = [16, 18, 87, 36, 25, 89, 34]
+Enter the m value:1
+Enter the n value:3
+1 maximum number =89
+3 minimum number =25
+Sum = 114
+Difference = 64
+Product = 2225
