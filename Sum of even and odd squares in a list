@@ -1,0 +1,41 @@
+"""Write a Python taking list l that takes a nonempty list of integers and returns a list [odd, even],
+where odd is the sum of squares of all the odd numbers in l and even is the sum of squares of all
+the even numbers in l.
+Sample Input:
+Enter the number of elements:7
+Enter the element: 18
+Enter the element:9
+Enter the element:1
+Enter the element:12
+Enter the element:13
+Enter the element:4
+Enter the element:30
+Output:
+[251,1384]"""
+
+n=int(input("Enter the size of list:"))
+s=[]
+for i in range(n):
+    n1=int(input(f"Enter the {i+1} element:"))
+    s.append(n1)
+print("List =",s)
+even_sum=0
+odd_sum=0
+for num in s:
+    if num%2==0:
+        even_sum+=num*num
+    else:
+        odd_sum+=num*num
+print([odd_sum,even_sum])
+
+output:
+Enter the size of list:7
+Enter the 1 element:18
+Enter the 2 element:9
+Enter the 3 element:1
+Enter the 4 element:12
+Enter the 5 element:13
+Enter the 6 element:4
+Enter the 7 element:30
+List = [18, 9, 1, 12, 13, 4, 30]
+[251, 1384]
