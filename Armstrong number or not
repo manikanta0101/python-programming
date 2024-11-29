@@ -1,0 +1,23 @@
+# python program to find armstrong number or not
+
+n=int(input("Enter the number:"))
+count=0
+sum1=0
+temp=n
+while n>0:
+    digit=n%10
+    count+=1
+    n=n//10
+n=temp
+while n>0:
+    digit1=n%10
+    sum1+=digit1**count
+    n=n//10
+if sum1==temp:
+    print("Given number is armstrong number")
+else:
+    print("Given number is not armstrong number")
+
+output:
+Enter the number:153
+Given number is armstrong number
