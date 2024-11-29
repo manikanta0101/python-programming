@@ -1,0 +1,26 @@
+"""Delete an Element from an Array
+Example: arr[6] = {12,65,32,75,48,11}
+Original Array:
+12	65	32	75	48	11
+New Array:
+12	65	32	48	11 """
+
+n=int(input("Enter the size of array:"))
+s=[]
+for i in range(n):
+    n1=int(input(f"Enter the {i+1} element:"))
+    s.append(n1)
+print("Original array =",s)
+removed=s.remove(75)
+print("New array =",s)
+
+output:
+Enter the size of array:6
+Enter the 1 element:12
+Enter the 2 element:65
+Enter the 3 element:32
+Enter the 4 element:75
+Enter the 5 element:48
+Enter the 6 element:11
+Original array = [12, 65, 32, 75, 48, 11]
+New array = [12, 65, 32, 48, 11]
