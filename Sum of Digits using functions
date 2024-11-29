@@ -1,0 +1,20 @@
+"""Sum of Digits using functions 
+Sum of digits problem allows a user to enter any number, divide that number into individual numbers, and sum those individual numbers.
+Example 1:
+Given number = 14892 => 1 + 4 + 8 + 9 + 2 = 24.
+Sum of digits of a given number “14892” is 24."""
+
+def my_function(n):
+    total=0
+    while n>0:
+        digit=n%10
+        total+=digit
+        n=n//10
+    print("Sum of digits =",total)
+n=int(input("Enter the number:"))
+my_function(n)
+
+
+output:
+Enter the number:24
+Sum of digits = 6
