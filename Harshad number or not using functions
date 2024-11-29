@@ -1,0 +1,19 @@
+# python program to find the number is harshad number or not using functions
+
+def my_function(n):
+    sum=0
+    temp=n
+    while n>0:
+        digit=n%10
+        sum+=digit
+        n=n//10
+    if temp%sum==0:
+        print("Harshad number")
+    else:
+        print("Not harshad number")
+n=int(input("Enter the number:"))
+my_function(n)
+
+output:
+Enter the number:21
+Harshad number
