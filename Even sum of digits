@@ -1,0 +1,17 @@
+"""Find the sum of all even digits in a given number.
+Sample: 
+Input: Enter a number: 356824
+Output: Sum of even digits: 20"""
+
+n=int(input("Enter the number:"))
+total=0
+while n>0:
+    digit=n%10
+    if digit%2==0:
+        total+=digit
+    n=n//10
+print("Even sum of digits =",total)
+
+output:
+Enter the number:1456
+Even sum of digits = 10
