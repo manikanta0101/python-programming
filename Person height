@@ -1,0 +1,15 @@
+"""Accept the Height of a Person & Categorize as Taller, Dwarf & Average
+Problem Description
+This problem accepts the height of a person as input and categorizes as taller, dwarf & average."""
+
+height=float(input("Enter the height of a person in cm:"))
+if height<150:
+    print("Person is dwarf")
+elif height>=150 and height<=180:
+    print("Person is average")
+else:
+    print("Person is taller")
+
+output:
+Enter the height of a person in cm:145
+Person is dwarf
