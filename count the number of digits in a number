@@ -1,0 +1,13 @@
+# python program to count the number of digits in a number
+
+n=int(input("Enter the number:"))
+count=0
+while n>0:
+    digit=n%10
+    count+=1
+    n=n//10
+print("Count of digits =",count)
+
+output:
+Enter the number:1234
+Count of digits = 4
