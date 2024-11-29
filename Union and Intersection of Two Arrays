@@ -1,0 +1,48 @@
+"""Find Union and Intersection of Two Arrays
+Elements of Array 1: { 12 34 23 56 45 }
+Sorted elements of Array 1: { 12 23 34 45 56 } 
+Elements of Array 2: { 34 56 12 78 66 } 
+Sorted elements of Array 2: { 12 34 56 66 78 } 
+Intersection is: { 12 34 56 } 
+Union is: { 12 23 34 45 56 66 78 }"""
+
+n1=int(input("Enter the size of array1:"))
+s1=[]
+for i in range(n1):
+    r1=int(input(f"Enter the {i+1} element:"))
+    s1.append(r1)
+print("Original array1 =",s1)
+s1.sort()
+print("Sorted array1 =",s1)
+n2=int(input("Enter the size of array2:"))
+s2=[]
+for j in range(n2):
+    r2=int(input(f"Enter the {j+1} element:"))
+    s2.append(r2)
+print("Original array2 =",s2)
+s2.sort()
+print("Sorted array2 =",s2)
+uni=sorted(set(s1).union(s2))
+inte=sorted(set(s1).intersection(s2))
+print("Union =",uni)
+print("Intersection =",inte)
+
+output:
+Enter the size of array1:5
+Enter the 1 element:12
+Enter the 2 element:34
+Enter the 3 element:23
+Enter the 4 element:56
+Enter the 5 element:45
+Original array1 = [12, 34, 23, 56, 45]
+Sorted array1 = [12, 23, 34, 45, 56]
+Enter the size of array2:5
+Enter the 1 element:34
+Enter the 2 element:56
+Enter the 3 element:12
+Enter the 4 element:78
+Enter the 5 element:66
+Original array2 = [34, 56, 12, 78, 66]
+Sorted array2 = [12, 34, 56, 66, 78]
+Union = [12, 23, 34, 45, 56, 66, 78]
+Intersection = [12, 34, 56]
