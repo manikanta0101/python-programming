@@ -1,0 +1,13 @@
+# python program to find the volume of cylinder using functions
+
+def my_function(radius,height):
+    volume=3.14*radius*radius*height
+    print("Volume of cylinder =",volume)
+radius=int(input("Enter the radius of cylinder:"))
+height=int(input("Enter the hright of cylinder:"))
+my_function(radius,height)
+
+output:
+Enter the radius of cylinder:5
+Enter the hright of cylinder:10
+Volume of cylinder = 785.0
