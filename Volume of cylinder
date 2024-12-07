@@ -1,0 +1,11 @@
+# python program to find the volume of cylinder
+
+radius=int(input("Enter the radius of cylinder:"))
+height=int(input("Enter the height of cylinder:"))
+volume=3.14*radius*radius*height
+print("Volume of cylinder =",volume)
+
+output:
+Enter the radius of cylinder:5
+Enter the height of cylinder:10
+Volume of cylinder = 785.0
