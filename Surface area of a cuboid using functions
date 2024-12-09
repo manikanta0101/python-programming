@@ -1,0 +1,15 @@
+# python program to find the surface area of a cuboid using functions
+
+def my_function(length,width,height):
+    surface_area=2*(length*width+width*height+height*length)
+    print("Surface area of cuboid =",surface_area)
+length=int(input("Enter the length of cuboid:"))
+width=int(input("Enter the width of cuboid:"))
+height=int(input("Enter the height of cuboid:"))
+my_function(length,width,height)
+
+output"
+Enter the length of cuboid:5  
+Enter the width of cuboid:3
+Enter the height of cuboid:4
+Surface area of cuboid = 94
