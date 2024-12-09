@@ -1,0 +1,15 @@
+"""1. Check if all elements in a list are unique
+Required Input:
+[1, 2, 3, 4]
+Expected Output:
+True  """
+
+code:
+def all_unique():
+    lst = [1, 2, 3, 4]
+    return len(lst) == len(set(lst))
+
+print(all_unique())
+
+output:
+True
