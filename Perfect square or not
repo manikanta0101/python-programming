@@ -1,0 +1,12 @@
+# python program to find the perfect square or not
+
+n=int(input("Enter the number:"))
+square=n*n
+if square%n==0:
+    print("It is an perfect square")
+else:
+    print("It is not an perfect square")
+
+output:
+Enter the number:5
+It is an perfect square
