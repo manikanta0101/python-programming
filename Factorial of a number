@@ -1,0 +1,11 @@
+# python program to find the facotrial of a number
+
+n=int(input("Enter the number:"))
+result=1
+for i in range(1,n+1):
+    result=result*i
+print("Factorial of a number =",result)
+
+output:
+Enter the number:5
+Factorial of a number = 120
