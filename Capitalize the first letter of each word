@@ -1,0 +1,9 @@
+# python program to capitalize the first letter of each word
+
+s=input("Enter the string:")
+caps=s.title()
+print("Capitalized string =",caps)
+
+output:
+Enter the string:welcome to python
+Capitalized string = Welcome To Python
