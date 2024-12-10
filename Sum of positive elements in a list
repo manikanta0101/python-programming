@@ -1,0 +1,22 @@
+# python program to find the sum of positive elements in a list
+
+n=int(input("Enter the size of list:"))
+s=[]
+for i in range(1,n+1):
+    r=int(input(f"Enter the {i} element:"))
+    s.append(r)
+print("List =",s)
+sum=0
+for j in s:
+    if j>0:
+        sum+=j
+print("Sum =",sum)
+
+output:
+nter the size of list:4
+Enter the 1 element:1
+Enter the 2 element:2
+Enter the 3 element:-2
+Enter the 4 element:-3
+List = [1, 2, -2, -3]
+Sum = 3
