@@ -1,0 +1,9 @@
+# python program to remove all whitespaces in a string
+
+s=input("Enter the string with whitespaces:")
+removed=s.replace(" ","")
+print("Removed string =",removed)
+
+output:
+Enter the string with whitespaces:welcome to python
+Removed string = welcometopython
