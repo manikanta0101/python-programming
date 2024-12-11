@@ -1,0 +1,16 @@
+# python program to find palindromic numbers between two numbers using functions
+
+def my_function(start,end):
+    s=[]
+    for i in range(start,end+1):
+        if str(i)==str(i)[::-1]:
+            s.append(i)
+    print("Palindromic numbers between two numbers =",s)
+start=int(input("Enter the start number:"))
+end=int(input("Enter the end number:"))
+my_function(start,end)
+
+output:
+Enter the start number:100
+Enter the end number:150
+Palindromic numbers between two numbers = [101, 111, 121, 131, 141]
